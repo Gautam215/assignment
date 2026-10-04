@@ -1,0 +1,41 @@
+<svg width="1920" height="1200" viewBox="0 0 1920 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="960" y1="0" x2="960" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202931"/><stop offset=".44" stop-color="#78817C"/><stop offset=".72" stop-color="#D28E6E"/><stop offset="1" stop-color="#E6AA78"/>
+    </linearGradient>
+    <linearGradient id="road" x1="960" y1="660" x2="960" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#51504C"/><stop offset=".25" stop-color="#343633"/><stop offset="1" stop-color="#111514"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="960" y1="500" x2="960" y2="880" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6BE83" stop-opacity=".46"/><stop offset="1" stop-color="#F6BE83" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="960" y1="445" x2="960" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#414846"/><stop offset="1" stop-color="#252B2A"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1920" height="1200" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1200" fill="url(#sky)"/>
+  <ellipse cx="978" cy="650" rx="536" ry="131" fill="#E5A276" fill-opacity=".46" filter="url(#blur)"/>
+  <path d="M0 640L148 583L249 608L360 530L481 601L589 548L696 615L797 575L913 629L1014 582L1134 622L1253 543L1364 603L1476 537L1590 608L1700 560L1820 614L1920 574V805H0V640Z" fill="#555B55" fill-opacity=".5"/>
+  <path d="M0 684L147 642L280 669L414 607L538 672L661 614L790 669L921 636L1057 684L1191 621L1334 671L1461 611L1577 657L1716 606L1829 656L1920 631V825H0V684Z" fill="url(#mountain)"/>
+  <path d="M0 725L155 687L278 714L399 655L536 713L682 672L809 713L941 683L1082 720L1224 667L1352 713L1491 655L1620 706L1747 665L1879 706L1920 692V855H0V725Z" fill="#303633"/>
+  <rect y="716" width="1920" height="142" fill="url(#glow)"/>
+  <path d="M0 814L404 779L770 754L954 749L1148 754L1507 781L1920 820V1200H0V814Z" fill="url(#road)"/>
+  <path d="M916 749L1000 749L1281 1200H636L916 749Z" fill="#2C302F" fill-opacity=".84"/>
+  <path d="M941 753L957 753L1008 839H971L941 753Z" fill="#E8D4AE" fill-opacity=".78"/>
+  <path d="M967 886H1031L1080 1009H1007L967 886Z" fill="#E8D4AE" fill-opacity=".71"/>
+  <path d="M1016 1058H1098L1158 1200H1071L1016 1058Z" fill="#E8D4AE" fill-opacity=".62"/>
+  <path d="M0 829L744 755L791 755L314 850L0 886V829Z" fill="#D5D1C5" fill-opacity=".22"/>
+  <path d="M1920 829L1176 755L1129 755L1606 850L1920 886V829Z" fill="#D5D1C5" fill-opacity=".22"/>
+  <path d="M0 897L810 774" stroke="#C9B395" stroke-opacity=".19" stroke-width="3"/>
+  <path d="M1920 897L1110 774" stroke="#C9B395" stroke-opacity=".19" stroke-width="3"/>
+  <g fill="#171D1B">
+    <path d="M80 766L106 689L117 689L142 769L129 770L121 744L99 746L92 768L80 766ZM102 735L118 734L110 708L102 735Z"/>
+    <path d="M166 768L170 682L181 682L178 768H166Z"/><path d="M187 766L202 679L215 679L225 768H212L210 743L193 742L189 767L187 766ZM196 731L208 731L206 706L196 731Z"/>
+    <path d="M1767 765L1790 680L1801 680L1824 770L1811 769L1803 743L1781 742L1774 767L1767 765ZM1784 730L1800 731L1792 704L1784 730Z"/>
+    <path d="M1848 768L1852 678L1863 678L1860 768H1848Z"/><path d="M1871 767L1886 680L1899 680L1909 769H1896L1894 744L1877 743L1873 768L1871 767Z"/>
+  </g>
+  <path d="M0 0H1920V1200H0V0Z" fill="#101415" fill-opacity=".13"/>
+</svg>
